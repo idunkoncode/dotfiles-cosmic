@@ -1,0 +1,12 @@
+config nu 
+$nu.config-path.
+cd .config/nushell
+sudo vim config.nu
+ced 
+cd 
+cd .config/nushell
+sudo vim config.nu
+clear
+cd
+clear
+sudo pacman -S cosmic-store
