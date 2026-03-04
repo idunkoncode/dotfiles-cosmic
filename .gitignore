@@ -1,2 +1,20 @@
-# Doom Emacs install (not user config — doom/ has the actual config)
+# Emacs cache
+emacs/.local/cache/
+emacs/eln-cache/
+**/*.eln
+**/*.elc
+
+# Nushell history
+nushell/history.txt
+
+# Fish compiled
+**/*.zwc
+fish/fish_variables
+
+# Misc
+.DS_Store
+*~
+
+# Embedded git repos (managed separately)
 emacs/
+nvim/

@@ -1,6 +1,6 @@
 (
     output: "all",
-    source: Path("/home/itsthicc/.local/share/gruvbox-wallpapers"),
+    source: Path("/home/itsthiicc/.local/share/gruvbox-wallpapers"),
     filter_by_theme: true,
     rotation_frequency: 900,
     filter_method: Lanczos,

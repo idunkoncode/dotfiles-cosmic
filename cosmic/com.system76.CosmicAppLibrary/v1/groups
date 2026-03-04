@@ -1,0 +1,79 @@
+[
+    (
+        name: "games",
+        icon: "folder-symbolic",
+        filter: AppIds([
+            "FINAL FANTASY TACTICS - The Ivalice Chronicles",
+            "im.fluffychat.Fluffychat",
+            "Hollow Knight",
+            "Hollow Knight Silksong",
+            "Iron Core Mech Survivor",
+            "Dark Fairy Tale Dreamland Survivors",
+            "DRAGON QUEST I & II HD-2D Remake",
+            "Curse of the Dead Gods",
+            "DRAGON QUEST III HD-2D Remake",
+            "Chained Echoes",
+            "Clair Obscur Expedition 33",
+            "CODE VEIN",
+            "Aethermancer",
+            "Absolum",
+            "Sea of Stars",
+            "Stardew Valley",
+            "Streets of Rage 4",
+            "The First Berserker Khazan",
+            "TRIANGLE STRATEGY",
+            "Vampire Survivors",
+        ]),
+    ),
+    (
+        name: "cosmic-office",
+        icon: "folder-symbolic",
+        filter: Categories(
+            categories: [
+                "Office",
+            ],
+            exclude: [],
+            include: [
+                "org.gnome.Totem",
+                "org.gnome.eog",
+                "simple-scan",
+                "thunderbird",
+            ],
+        ),
+    ),
+    (
+        name: "cosmic-system",
+        icon: "folder-symbolic",
+        filter: Categories(
+            categories: [
+                "System",
+            ],
+            exclude: [
+                "com.system76.CosmicStore",
+                "com.system76.CosmicTerm",
+            ],
+            include: [
+                "gnome-language-selector",
+                "im-config",
+                "org.freedesktop.IBus.Setup",
+                "system76-driver",
+            ],
+        ),
+    ),
+    (
+        name: "cosmic-utilities",
+        icon: "folder-symbolic",
+        filter: Categories(
+            categories: [
+                "Utility",
+            ],
+            exclude: [
+                "com.system76.CosmicEdit",
+                "com.system76.CosmicFiles",
+            ],
+            include: [
+                "nm-connection-editor",
+            ],
+        ),
+    ),
+]
