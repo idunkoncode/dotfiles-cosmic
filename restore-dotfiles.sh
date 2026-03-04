@@ -4,7 +4,7 @@
 
 DOTFILES="/mnt/Stuffv1.0/System_Setup/dotfiles"
 
-for dir in fish cosmic nushell bash micro doom emacs nvim autostart systemd; do
+for dir in fish cosmic nushell bash micro doom emacs nvim autostart systemd fastfetch; do
     if [ -d "$DOTFILES/$dir" ]; then
         ln -sf "$DOTFILES/$dir" ~/.config/$dir
         echo "✓ $dir"
